@@ -1,2 +1,4 @@
 # shoestore
-Clothing store front template using Bootstrap
+E-commerce store front template using Bootstrap
+
+Landing page with carousel and card categories
