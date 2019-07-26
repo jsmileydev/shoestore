@@ -29,6 +29,8 @@
 		}
 	}
 	.card-img-overlay {
+		-webkit-transition: font-size .2s;
+		-o-transition: font-size .2s;
 		transition: font-size .2s;
 	}
 	.card-img-overlay:hover{
