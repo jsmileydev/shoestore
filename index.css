@@ -38,7 +38,10 @@
 	}
 
 	.carousel-inner img {
+		width: 100%;
 		height: calc(100vh - 66px);
+		object-fit: cover;
+		overflow: hidden;
 	}
 
 	.carousel-control-next-icon,
@@ -57,7 +60,7 @@
 	@media (max-width: 480px) {
 	
 	.carousel-inner img {
-		height: 40vh;
+		height: 50vh;
 	}
 		.icons img {
 			width: 48px;
