@@ -4,13 +4,47 @@
 		padding-bottom: 0;
 		overflow-x: hidden;
 	}
+
+	.navbar-nav {
+		text-transform: uppercase;
+	}
+
 	.navbar-brand {
 		font-family: 'Cormorant Garamond', serif;
 		font-weight: 600;
 		font-size: 1.6em !important;
 	}
+
+	.nav-link {
+		color: #fff !important;
+		font-size: 1.1rem;
+	  }
+	  
+	  .nav-link:hover,
+	  .nav-link:focus {
+		text-decoration: underline;
+	  }
+	
+	.nav-item {
+		text-align: center;
+	}
+
+	.fa-lg {
+		font-size: 1.2em !important;
+	}
+
+	.drop-search {
+		padding: 0;
+	}
+
 	.carousel-inner img {
-		height: 80vh;
+		height: calc(100vh - 66px);
+	}
+
+	.carousel-control-next-icon,
+	.carousel-control-prev-icon {
+		height: 30px;
+		width: 30px;
 	}
 	.border-3 {
 		border: 1px solid #fff;
@@ -20,14 +54,14 @@
 		margin: 0 auto;
 		width: 60px;
 	}
-	@media (max-width: 767.98px) {
+	@media (max-width: 480px) {
+	
 	.carousel-inner img {
 		height: 40vh;
 	}
 		.icons img {
 			width: 48px;
 		}
-	}
 	.card-img-overlay {
 		-webkit-transition: font-size .2s;
 		-o-transition: font-size .2s;
