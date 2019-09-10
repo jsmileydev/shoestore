@@ -1,76 +1,80 @@
+body {
+	padding-top: 0;
+	padding-bottom: 0;
+	overflow-x: hidden;
+}
 
-	body {
-		padding-top: 0;
-		padding-bottom: 0;
-		overflow-x: hidden;
-	}
+.navbar-nav {
+	text-transform: uppercase;
+}
 
-	.navbar-nav {
-		text-transform: uppercase;
-	}
+.navbar-brand {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 600;
+	font-size: 1.6em !important;
+}
 
-	.navbar-brand {
-		font-family: 'Cormorant Garamond', serif;
-		font-weight: 600;
-		font-size: 1.6em !important;
-	}
+.nav-link {
+	color: #fff !important;
+	font-size: 1.1rem;
+}
 
-	.nav-link {
-		color: #fff !important;
-		font-size: 1.1rem;
-	  }
-	  
-	  .nav-link:hover,
-	  .nav-link:focus {
-		text-decoration: underline;
-	  }
-	
-	.nav-item {
-		text-align: center;
-	}
+.nav-link:hover,
+.nav-link:focus {
+	text-decoration: underline;
+}
 
-	.fa-lg {
-		font-size: 1.2em !important;
-	}
+.nav-item {
+	text-align: center;
+}
 
-	.drop-search {
-		padding: 0;
-	}
+.fa-lg {
+	font-size: 1.2em !important;
+}
 
-	.carousel-inner img {
-		width: 100%;
-		height: calc(100vh - 66px);
-		object-fit: cover;
-		overflow: hidden;
-	}
+.drop-search {
+	padding: 0;
+}
 
-	.carousel-control-next-icon,
-	.carousel-control-prev-icon {
-		height: 30px;
-		width: 30px;
-	}
-	.border-3 {
-		border: 1px solid #fff;
-	}
-	.icons img {
-		display: inline-block;
-		margin: 0 auto;
-		width: 60px;
-	}
-	@media (max-width: 480px) {
-	
+.carousel-inner img {
+	width: 100%;
+	height: calc(100vh - 66px);
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	height: 30px;
+	width: 30px;
+}
+.border-3 {
+	border: 1px solid #fff;
+}
+.icons img {
+	display: inline-block;
+	margin: 0 auto;
+	width: 60px;
+}
+
+.collage-img {
+	object-fit: contain;
+}
+
+@media (max-width: 480px) {
 	.carousel-inner img {
 		height: 50vh;
 	}
-		.icons img {
-			width: 48px;
-		}
+
+	.icons img {
+		width: 48px;
+	}
 	.card-img-overlay {
 		-webkit-transition: font-size .2s;
 		-o-transition: font-size .2s;
 		transition: font-size .2s;
 	}
-	.card-img-overlay:hover{
+	.card-img-overlay:hover {
 		font-size: 1.5em;
 	}
 	.card-overlay:hover {
@@ -79,3 +83,4 @@
 	footer {
 		padding-bottom: 0;
 	}
+}
