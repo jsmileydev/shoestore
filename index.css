@@ -57,8 +57,45 @@ body {
 	width: 60px;
 }
 
-.collage-img {
+.collage-title {
+	line-height: 100%;
+	font-size: 2rem;
+}
+
+.collage-img-div img {
 	object-fit: contain;
+	width: 100%;
+}
+
+.collage-badge-link {
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	border: 1px solid rgba(255,255,255);
+	padding: 15px;
+	color: rgba(255,255,255);
+}
+
+.collage-badge-link:hover {
+	transform: scale()
+}
+
+#collage-link-1 {
+	top: 500px;
+	left: 50px;
+}
+
+#collage-link-2 {
+	top: 100px;
+	right: 300px;
+}
+
+#collage-link-3 {
+	top: 450px;
+	right: 50px;
+}
+
+.fa-angle-right {
+	vertical-align: middle;
 }
 
 @media (max-width: 480px) {
