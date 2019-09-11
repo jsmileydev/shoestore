@@ -57,6 +57,18 @@ body {
 	width: 60px;
 }
 
+.card-product .card-img-back {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.card-product:hover .card-img-back {
+	display: inline;
+	transition: .5s;
+}
+
 .collage-title {
 	line-height: 100%;
 	font-size: 2rem;
@@ -77,13 +89,16 @@ body {
 	border: 1px solid rgba(255,255,255);
 	padding: 15px;
 	color: rgba(255,255,255);
+	cursor: pointer;
 }
 
-/*.collage-badge-link:hover {
-	transform: scale(1);
-	transition: 0.5s;
-	cursor: pointer;
-}*/
+.collage-badge-link:hover {
+	transform: scale(1.05);
+}
+
+.collage-badge-link:hover .fa-angle-right {
+	transform: translateX(20px);
+}
 
 #collage-link-1 {
 	top: 75%;
@@ -102,6 +117,7 @@ body {
 
 .fa-angle-right {
 	vertical-align: middle;
+	transition: .5s;
 }
 
 @media (max-width: 576px) {
