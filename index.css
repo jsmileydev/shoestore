@@ -48,6 +48,7 @@ body {
 	height: 30px;
 	width: 30px;
 }
+
 .border-3 {
 	border: 1px solid #fff;
 }
@@ -55,6 +56,21 @@ body {
 	display: inline-block;
 	margin: 0 auto;
 	width: 60px;
+}
+
+.card-body {
+	position: relative;
+}
+
+.sale-badge {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	color: rgba(255,255,255);
+	border-radius: 50%;
 }
 
 .card-product .card-img-back {
@@ -67,6 +83,10 @@ body {
 .card-product:hover .card-img-back {
 	display: inline;
 	transition: .5s;
+}
+
+.product-name {
+	margin: .75rem !important;
 }
 
 .collage-title {
@@ -102,7 +122,7 @@ body {
 
 #collage-link-1 {
 	top: 75%;
-	left: 50px;
+	left: 5%;
 }
 
 #collage-link-2 {
@@ -112,7 +132,7 @@ body {
 
 #collage-link-3 {
 	top: 20%;
-	right: 50px;
+	right: 5%;
 }
 
 .fa-angle-right {
@@ -127,8 +147,29 @@ body {
 		overflow: hidden;
 	}
 
+	.carousel-caption {
+		padding: 24px 0 !important;
+	}
+
+	.carousel-caption h1 {
+		font-size: 1.5rem !important;
+	}
+	.carousel-caption p{
+		font-size: 1rem !important;
+	}
+
 	.icons img {
 		width: 48px;
+	}
+
+	.image-row-col {
+		padding: 0;
+	}
+	.card-img-overlay h4 {
+		font-size: 1rem;
+	}
+	.card-img-overlay p {
+		font-size: .8rem;
 	}
 	.card-img-overlay {
 		-webkit-transition: font-size .2s;
@@ -141,9 +182,18 @@ body {
 	.card-overlay:hover {
 		opacity: 0.7;
 	}
+
+	.collage {
+		width: 100% !important;
+	}
+
+	.collage-img-div {
+		margin: 6px 12px;
+	}
 	.collage-badge-link {
 		padding: 3px;
 		max-width:100px;
+		font-size: .75rem;
 	}
 	footer {
 		padding-bottom: 0;
