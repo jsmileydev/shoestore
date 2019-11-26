@@ -1,3 +1,6 @@
+
+
+
 body {
 	padding-top: 0;
 	padding-bottom: 0;
@@ -36,6 +39,8 @@ body {
 	padding: 0;
 }
 
+/*CAROUSEL*/
+
 .carousel-inner img {
 	width: 100%;
 	height: calc(100vh - 66px);
@@ -58,6 +63,8 @@ body {
 	width: 60px;
 }
 
+/*CARDS*/
+
 .card-body {
 	position: relative;
 }
@@ -79,15 +86,17 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 99;
+	transition: display 1s;
 }
 .card-product:hover .card-img-back {
 	display: inline;
-	transition: .5s;
 }
 
 .product-name {
-	margin: .75rem !important;
+	font-weight: bold;
 }
+
+/*COLLAGE*/
 
 .collage-title {
 	line-height: 100%;
@@ -121,13 +130,13 @@ body {
 }
 
 #collage-link-1 {
-	top: 75%;
-	left: 5%;
+	top: 9%;
+	right: 5%;
 }
 
 #collage-link-2 {
 	top: 20%;
-	right: 50%;
+	left: 5%;
 }
 
 #collage-link-3 {
@@ -140,7 +149,17 @@ body {
 	transition: .5s;
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 991.98px) {
+	.dropdown-item, #search-form {
+		text-align: center !important;
+	}
+}
+
+@media screen and (max-width: 575.98px) {
+
+
+	/*CAROUSEL*/
+
 	.carousel-inner img {
 		height: 50vh;
 		object-fit: cover;
@@ -165,6 +184,9 @@ body {
 	.image-row-col {
 		padding: 0;
 	}
+
+	/*CARDS*/
+
 	.card-img-overlay h4 {
 		font-size: 1rem;
 	}
@@ -182,18 +204,31 @@ body {
 	.card-overlay:hover {
 		opacity: 0.7;
 	}
+	
+	/*COLLAGE*/
 
-	.collage {
+	/*.collage {
 		width: 100% !important;
 	}
 
 	.collage-img-div {
 		margin: 6px 12px;
-	}
+	}*/
+
 	.collage-badge-link {
-		padding: 3px;
-		max-width:100px;
+		padding: .5rem;
+		max-width: 80px;
 		font-size: .75rem;
+	}
+	#collage-link-1 {
+
+	}
+	#collage-link-2 {
+		top: 0;
+	}
+	#collage-link-3 {
+		top: 0;
+		right: 0;
 	}
 	footer {
 		padding-bottom: 0;

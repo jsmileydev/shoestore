@@ -64,7 +64,7 @@
 							Search &nbsp;<i class="fas fa-search"></i>
 						</a>
 						<div class="dropdown-menu drop-search-menu p-0" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item drop-search" href="#"><input class="form-control mr-sm-2"
+							<a class="dropdown-item drop-search" href="#"><input class="form-control mr-sm-2" id="search-form"
 									type="search" placeholder="Search" aria-label="Search"></a>
 						</div>
 					</li>
@@ -187,55 +187,55 @@
 			<h2 class="text-center">Latest Products</h2>
 		</div>
 		<div class="row justify-content-around border-top border-bottom w-85 py-5 mx-auto">
-			<div class="col-5 col-md-3 col-lg-2 card card-prod-box mb-3 px-0 m-2  border-0">
+			<div class="col-3 col-md-4 card card-prod-box mb-3 px-0 m-2  border-0">
 				<div class="card-product text-center">
 					<a href="#">
 						<img src="./images/sq-mens-boot-ltbrn.png" class="card-img-top" alt="Men's light brown boot"/>
 						<img src="images/sq-mens-boot-ltbrn2.jpg" class="card-img-top card-img-back" alt="Men's light brown boot"/>
 						<div class="sale-badge bg-primary"><span>SALE</span></div>
 					</a>
-					<div class="card-body pt-1 text-left">
+					<div class="pt-1">
 						<a href="#" class="text-dark">
-							<p class="card-title product-name">Men's Boots</p>
+							<p class="card-title product-name my-2">Men's Boots</p>
 						</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-5 col-md-3 col-lg-2 card card-prod-box mb-3 px-0 m-2  border-0">
+			<div class="col-3 col-md-4 card card-prod-box mb-3 px-0 m-2  border-0">
 				<div class="card-product text-center">
 					<a href="#">
 						<img src="./images/sq-mens-dress-blk.png" class="card-img-top" alt="Men's black dress shoes">
 						<img src="images/sq-mens-dress-brn-jeans.jpg" class="card-img-top card-img-back" alt="Men's brown dress shoes"/>
 						</a>
-					<div class="card-body pt-1 text-left">
+					<div class="pt-1">
 						<a href="#" class="text-dark">
-							<p class="card-title product-name">Men's Dress Shoes</p>
+							<p class="card-title product-name my-2">Men's Dress Shoes</p>
 						</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-5 col-md-3 col-lg-2 card card-prod-box mb-3 px-0 m-2  border-0">
+			<div class="col-3 col-md-4 card card-prod-box mb-3 px-0 m-2  border-0">
 				<div class="card-product text-center">
 					<a href="#">
 						<img src="./images/sq-womens-heels-wht.jpg" class="card-img-top" alt="Women's white heels">
 						<img src="images/sq-womens-heels-blk.jpg" class="card-img-top card-img-back" alt="Women's black heels"/>
 						</a>
-					<div class="card-body pt-1 text-left">
+					<div class="pt-1">
 						<a href="#" class="text-dark">
-							<p class="card-title product-name">Women's Heels</p>
+							<p class="card-title product-name my-2">Women's Heels</p>
 						</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-5 col-md-3 col-lg-2 card card-prod-box mb-3 px-0 m-2  border-0">
-				<div class="card-product text-center ">
+			<div class="col-3 col-md-4 card card-prod-box mb-3 px-0 m-2  border-0">
+				<div class="card-product text-center">
 					<a href="#">
 						<img src="./images/sq-womens-boot-blk-heel.png" class="card-img-top" alt="Womens black heeled boots">
 						<img src="images/sq-womens-boot-blk-jeans.jpg" class="card-img-top card-img-back" alt="Women's black heeled boots in jeans"/>
 						</a>
-					<div class="card-body pt-1 text-left">
+					<div class="pt-1">
 						<a href="#" class="text-dark">
-							<p class="card-title product-name">Women's Boots</p>
+							<p class="card-title product-name my-2">Women's Boots</p>
 						</a>
 					</div>
 				</div>
@@ -246,22 +246,22 @@
 	<!-- Collage -->
 
 	<section class="bg-dark">
-		<div class="container collage mx-12px w-75 py-5 px-0">
-			<div class="row collage-descr justify-content-center my-5 mx-2 text-white">
+		<div class="collage w-100 py-5 px-0">
+			<div class="row collage-descr justify-content-center mt-1 mb-5 mx-2 text-white">
 				<div class="col-lg-4 collage-head collage-title font-weight-bold m-2">Fall '19 Collection</div>
 				<div class="col-lg-7 collage-head m-2">Yr selfies retro 90's glossier thundercats
 					dreamcatcher narwhal ennui cred put a bird on it neutra live-edge before they sold out. Vinyl
 					live-edge yuccie woke tattooed plaid selfies cloud bread williamsburg mustache snackwave hell of
 					chartreuse hashtag.</div>
 			</div>
-			<div class="row collage-row mx-auto">
-				<div class="col-lg-6 collage-img-div py-0 px-0">
+			<div class="row collage-row mx-auto mb-1">
+				<div class="col-6 collage-img-div py-0 px-0">
 					<img src="./images/vert-alt-womens-boot-blk.jpg" alt="Women's black ankle boots" class="collage-img" />
 					<div>
 						<span class="collage-badge-link" id="collage-link-1">WOMEN'S BOOTS <i class="fas fa-arrow-right"></i></span>
 					</div>
 				</div>
-				<div class="col-lg-6 collage-img-div d-flex align-content-between  flex-wrap p-0">
+				<div class="col-6 collage-img-div d-flex align-content-between  flex-wrap p-0">
 					<div class="collage-img-div">
 						<img src="images/horz-mens-boot-dkbrn-bridge2.jpg" alt="Men's dark brown boots" class="collage-img pt-0" />
 						<div>
