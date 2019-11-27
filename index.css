@@ -11,11 +11,19 @@ body {
 	text-transform: uppercase;
 }
 
-.navbar-brand {
+.navbar-logo {
 	font-family: 'Cormorant Garamond', serif;
+}
+
+.navbar-brand {
 	font-weight: 600;
 	font-size: 1.6em !important;
 }
+
+.navbar-brand span {
+	display: none;
+}
+
 
 .nav-link {
 	color: #fff !important;
@@ -63,7 +71,11 @@ body {
 	width: 60px;
 }
 
-/*CARDS*/
+/*PRODUCT CARDS*/
+
+.product-row {
+	margin: 0;
+}
 
 .card-body {
 	position: relative;
@@ -150,12 +162,55 @@ body {
 }
 
 @media screen and (max-width: 991.98px) {
-	.dropdown-item, #search-form {
+	#search-form {
 		text-align: center !important;
+	}
+	.nav-item {
+		width: 90%;
+		margin: 0 auto;
+		text-align: left;
+	}
+	.dropdown-menu {
+		text-align: left;
+		background-color: inherit;
+		color: inherit;
+		border: none;
+	}
+	.navbar-icon-links {
+		text-align: center;
+	}
+	.navbar-brand span {
+		display: inline;
+		font-size: 1rem !important;
+		font-weight: 100;
+	}
+
+	.carousel-caption {
+		padding: 1rem !important;
+	}
+	.carousel-caption h1 {
+		font-size: 2rem;
+	}
+
+	.card-row {
+		margin: 0 !important;
+	}
+
+	.collage-badge-link {
+		padding: .25rem;
+		font-size: .85rem;
+	}
+
+	.newsletter {
+		margin: 3rem 0.5rem !important;
 	}
 }
 
 @media screen and (max-width: 575.98px) {
+
+	.nav-item {
+		width: 100%;
+	}
 
 
 	/*CAROUSEL*/
@@ -215,7 +270,17 @@ body {
 		margin: 6px 12px;
 	}*/
 
+	.collage {
+		padding: 1rem 0 !important;
+	}
+
+	.collage-descr {
+		margin-bottom: 1rem !important; 
+		font-size: .85rem;
+	}
+
 	.collage-badge-link {
+		display: none;
 		padding: .5rem;
 		max-width: 80px;
 		font-size: .75rem;
